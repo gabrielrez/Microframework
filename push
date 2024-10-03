@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+try {
+    $cli = new Core\CLI;
+    $cli->run($argv);
+} catch (\Throwable $th) {
+    echo 'Error: ' . $th->getMessage() . "\n";
+}

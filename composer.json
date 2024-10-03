@@ -1,0 +1,18 @@
+{
+  "name": "push/push",
+  "description": "A minimalist PHP microframework MVC for building APIs",
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "App\\": "App/",
+      "Push\\Push\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Gabriel Rezende",
+      "email": "gabrielrezcpessoa@gmail.com"
+    }
+  ],
+  "require": {}
+}
